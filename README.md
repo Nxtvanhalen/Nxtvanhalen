@@ -8,7 +8,7 @@ I build AI-integrated production systems — tools where the AI layer isn't an a
 
 ### What I'm Building
 
-**[CLB Consulting Website](https://github.com/Nxtvanhalen/Website)** — Next.js portfolio platform featuring EVE, a self-aware AI concierge powered by GPT-5. Full production deployment with nonce-based CSP, WCAG 2.1 AA accessibility, structured data on every page, and a service worker with tiered caching. The codebase itself is a demonstration of AI-first development practices.
+**[CLB Consulting Website](https://github.com/Nxtvanhalen/Website)** — Next.js portfolio platform featuring EVE, a self-aware AI concierge powered by GPT-5. Full production deployment with nonce-based CSP, WCAG 2.1 AA accessibility, structured data on every page, and a service worker with tiered caching. Lighthouse: 96 Performance, 95 Accessibility, 100 Best Practices, 100 SEO.
 
 **[Chester AI Chess](https://github.com/Nxtvanhalen/ai-chess)** — Full-stack chess app with an AI companion named Chester. Custom minimax engine with alpha-beta pruning, opening book, and transposition tables. Chester provides real-time move commentary via Claude API with streaming SSE responses. Supabase auth + RLS, Stripe subscriptions, Elo rating system, and a PWA install flow. Live at [chesterchess.com](https://www.chesterchess.com).
 
