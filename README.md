@@ -10,6 +10,8 @@ I build AI-integrated production systems — tools where the AI layer isn't an a
 
 **[CLB Consulting Website](https://github.com/Nxtvanhalen/Website)** — Next.js portfolio platform featuring EVE, a self-aware AI concierge powered by GPT-5. Full production deployment with nonce-based CSP, WCAG 2.1 AA accessibility, structured data on every page, and a service worker with tiered caching. The codebase itself is a demonstration of AI-first development practices.
 
+**[Chester AI Chess](https://github.com/Nxtvanhalen/ai-chess)** — Full-stack chess app with an AI companion named Chester. Custom minimax engine with alpha-beta pruning, opening book, and transposition tables. Chester provides real-time move commentary via Claude API with streaming SSE responses. Supabase auth + RLS, Stripe subscriptions, Elo rating system, and a PWA install flow. Live at [chesterchess.com](https://www.chesterchess.com).
+
 **[Byte Email](https://github.com/Nxtvanhalen/byte-email)** — An AI you talk to over email. Send a message to byte@firstlyte.co and get an intelligent response — no app, no login, no website. Built with Bun + Hono, hybrid LLM routing (DeepSeek for text, Claude for vision), Redis conversation threading, and a resilience system with retry coverage on every external call.
 
 ---
@@ -17,8 +19,8 @@ I build AI-integrated production systems — tools where the AI layer isn't an a
 ### Tech I Work With
 
 `TypeScript` `Next.js` `React` `Bun` `Hono` `Node.js` `Tailwind CSS`
-`OpenAI GPT-5` `Claude API` `DeepSeek API` `Resend` `Upstash Redis`
-`Render` `ESLint` `Prettier` `Framer Motion`
+`Supabase` `Stripe` `OpenAI GPT-5` `Claude API` `DeepSeek API`
+`Upstash Redis` `Sentry` `Render` `Framer Motion` `chess.js`
 
 ---
 
