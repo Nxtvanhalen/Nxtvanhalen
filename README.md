@@ -12,7 +12,7 @@ I build AI-integrated production systems — tools where the AI layer isn't an a
 
 **[Chester AI Chess](https://github.com/Nxtvanhalen/ai-chess)** — Full-stack chess app with an AI companion named Chester. Custom minimax engine with alpha-beta pruning, opening book, and transposition tables. Chester provides real-time move commentary via Claude API with streaming SSE responses. Supabase auth + RLS, Stripe subscriptions, Elo rating system, and a PWA install flow. Lighthouse: 91 Performance, 94 Accessibility, 100 Best Practices, 100 SEO. Live at [chesterchess.com](https://www.chesterchess.com).
 
-**[Byte Email](https://github.com/Nxtvanhalen/byte-email)** — An AI you talk to over email. Send a message to byte@firstlyte.co and get an intelligent response — no app, no login, no website. Built with Bun + Hono, hybrid LLM routing (DeepSeek for text, Claude for vision), Redis conversation threading, and a resilience system with retry coverage on every external call.
+**[Byte Email](https://github.com/Nxtvanhalen/byte-email)** — An AI you talk to over email. Send a message to byte@firstlyte.co and get an intelligent response — no app, no login, no website. Built with Bun + Hono, hybrid LLM routing (DeepSeek for text, Claude for vision), Redis conversation threading, and a resilience system with retry coverage on every external call. Lighthouse: 100 Performance, 92 Accessibility, 100 Best Practices, 100 SEO.
 
 ---
 
