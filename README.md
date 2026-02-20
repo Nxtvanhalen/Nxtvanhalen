@@ -16,11 +16,24 @@ I build AI-integrated production systems — tools where the AI layer isn't an a
 
 ---
 
+### Areas of Focus
+
+**AI & LLM Engineering** — Deep experience across multiple providers (OpenAI, Anthropic Claude, DeepSeek). RAG and Graph RAG retrieval pipelines, Redis-based conversational memory systems, hybrid model routing, and streaming response architectures (SSE). Speech-to-text, text-to-speech, and voice activity detection (VAD) for real-time audio pipelines.
+
+**Full-Stack Production** — API and REST design, Supabase (Postgres + RLS + Auth), Stripe payment integration, real-time streaming, PWA installation flows, and custom game engines. Every project ships with rate limiting, input validation, error boundaries, and structured logging.
+
+**Cloud & DevOps** — Multi-platform deployment across Render, Vercel, and AWS. Infrastructure-as-code with `render.yaml`, CI/CD via GitHub Actions, environment-based secret management, and Sentry observability.
+
+**Security & Accessibility** — Nonce-based Content Security Policy, WCAG 2.1 AA compliance, ARIA landmarks, keyboard navigation, CORS configuration, and webhook signature verification. Security isn't a checklist — it's baked into the architecture.
+
+---
+
 ### Tech I Work With
 
 `TypeScript` `Next.js` `React` `Bun` `Hono` `Node.js` `Tailwind CSS`
 `Supabase` `Stripe` `OpenAI GPT-5` `Claude API` `DeepSeek API`
-`Upstash Redis` `Sentry` `Render` `Framer Motion` `chess.js`
+`Upstash Redis` `Sentry` `Render` `Vercel` `AWS Lambda`
+`Framer Motion` `chess.js` `Zod`
 
 ---
 
