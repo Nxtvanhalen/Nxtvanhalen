@@ -1,56 +1,58 @@
 # Chris Lee Bergstrom
 
-**Entertainment industry consulting meets artificial intelligence.**
+**AI-native full-stack engineer** · Portland, OR · remote
 
-I build AI-integrated production systems — tools where the AI layer isn't an afterthought, it's a first-class citizen of the architecture. My codebases are designed for human-AI collaborative development: verbose documentation written for future models, explicit decision rationale, and self-aware systems that understand their own structure.
+I don't hand-write code. I architect, specify, and verify; the agents type. Claude Code builds, Codex reviews, each model runs the other's tests, and CI decides what ships. Before software, I spent twenty years running live events, where work ships on show day or it doesn't ship.
+---
+
+### Try it now (no signup)
+
+| | What it is | Try it |
+|---|---|---|
+| ⚡ **Byte Mail** | An AI assistant that lives entirely in email. No app, no login. Outside users found it on their own and use it every day. | Email **byte@firstlyte.co** · [firstlyte.co](https://firstlyte.co) |
+| ♟️ **Chester** | A chess app with an AI companion that comments on your game as you play. Custom minimax engine, Elo, Stripe, PWA. | [chesterchess.com](https://www.chesterchess.com) |
+| 💬 **EVE** | The AI concierge on my site. The site has been rebuilt with each new model generation. | [chrisleebergstrom.com](https://chrisleebergstrom.com) |
+| 🔊 **Beacons** | Live noise-compliance monitoring for venues. Used on stage by a professional symphony orchestra. | [beaconsio.com](https://beaconsio.com) |
+| ⛽ **Fuel Estimator** | A free tour-bus fuel-cost calculator for tour managers, priced per state. | [fuel-estimator.onrender.com](https://fuel-estimator.onrender.com) |
+| 🎸 **The Underground** | A playable venue-management game built end to end with agents. | [Play it](https://underground-venue-manager.onrender.com) |
 
 ---
 
-### AI-First Development
+### Code you can read
 
-I write code for the future — where the next person reading your codebase is more likely to be an AI agent than a junior developer. That means:
+- **[ai-chess](https://github.com/Nxtvanhalen/ai-chess)**: Chester. Next.js, Supabase with RLS, Stripe, and Claude streaming commentary over SSE.
+- **[Website](https://github.com/Nxtvanhalen/Website)**: My site and EVE. Next.js, nonce-based CSP, WCAG 2.1 AA.
 
-- Documentation that explains the _why_, not just the _what_
-- Architecture that's navigable by codebase exploration tools
-- No tribal knowledge — every environment quirk, every workaround, documented with context
-- Systems that are self-aware: EVE knows her own API routes, Byte knows its own rate limits
-- **Claude Code as a daily driver** — my repos are deliberately structured to be navigable by agentic coding tools, with CLAUDE.md context files, explicit module boundaries, and decisions captured where the code lives
+Most of my day-to-day work is in private client and company repos. The contribution graph counts it, but you can't open those repos.
 
 ---
 
-### What I'm Building
+### How I build
 
-**[CLB Consulting Website](https://github.com/Nxtvanhalen/Website)** — Next.js portfolio platform featuring EVE, a self-aware AI concierge powered by GPT-5. Full production deployment with nonce-based CSP, WCAG 2.1 AA accessibility, structured data on every page, and a service worker with tiered caching. Lighthouse: 96 Performance, 95 Accessibility, 100 Best Practices, 100 SEO.
-
-**[Chester AI Chess](https://github.com/Nxtvanhalen/ai-chess)** — Full-stack chess app with an AI companion named Chester. Custom minimax engine with alpha-beta pruning, opening book, and transposition tables. Chester provides real-time move commentary via Claude API with streaming SSE responses. Supabase auth + RLS, Stripe subscriptions, Elo rating system, and a PWA install flow. Lighthouse: 91 Performance, 94 Accessibility, 100 Best Practices, 100 SEO. Live at [chesterchess.com](https://www.chesterchess.com).
-
-**[Byte Email](https://github.com/Nxtvanhalen/byte-email)** — An AI you talk to over email. Send a message to byte@firstlyte.co and get an intelligent response — no app, no login, no website. Built with Bun + Hono, hybrid LLM routing with **Claude Haiku 4.5 for vision and as automatic fallback** when the cheaper text path is unavailable, Redis conversation threading, and a resilience system with retry coverage on every external call. Lighthouse: 100 Performance, 92 Accessibility, 100 Best Practices, 100 SEO.
-
----
-
-### Areas of Focus
-
-**AI & LLM Engineering** — Deep experience across multiple providers (Anthropic Claude, OpenAI, DeepSeek), with Claude-specific depth in **tool use / function calling**, **MCP server authoring**, and **computer use**. RAG and Graph RAG retrieval pipelines, Redis-based conversational memory systems, hybrid model routing, and streaming response architectures (SSE). Speech-to-text, text-to-speech, and voice activity detection (VAD) for real-time audio pipelines.
-
-**Full-Stack Production** — API and REST design, Supabase (Postgres + RLS + Auth), Stripe payment integration, real-time streaming, PWA installation flows, and custom game engines. Every project ships with rate limiting, input validation, error boundaries, and structured logging.
-
-**Cloud & DevOps** — Multi-platform deployment across Render, Vercel, and AWS. Infrastructure-as-code with `render.yaml`, CI/CD via GitHub Actions, environment-based secret management, and Sentry observability.
-
-**Security & Accessibility** — Nonce-based Content Security Policy, WCAG 2.1 AA compliance, ARIA landmarks, keyboard navigation, CORS configuration, and webhook signature verification. Threat-modeled at design time, not patched at review time.
+- **Two models, adversarial.** Claude Code writes and Codex reviews. Findings loop between them until they're resolved, and each model runs the other's tests before anything merges.
+- **Context lives in the repo.** CLAUDE.md files, scope docs, decision logs, and blind-spot logs, so the next agent (or person) starts from a one-line goal and doesn't have to guess.
+- **Checks instead of diff-reading.** Tests, CI, database advisors, and staged deploys decide what ships.
+- **Every layer.** Hosted and local models, MCP servers, Postgres schemas with RLS, native iOS, ESP32 hardware, and calibrated microphones.
 
 ---
 
-### Tech I Work With
+### Recent work
 
-`TypeScript` `Next.js` `React` `Bun` `Hono` `Node.js` `Tailwind CSS`
-`Supabase` `Stripe` `Claude API` `MCP` `OpenAI GPT-5` `DeepSeek API`
-`Upstash Redis` `Sentry` `Render` `Vercel` `AWS Lambda`
-`Framer Motion` `chess.js` `Zod`
+- **Beacons** (co-founder & CTO): I built the whole platform alone. That covers the Swift iOS app with on-device DSP, the Next.js dashboard, Supabase/Postgres, ESP32 sensor nodes over Thread/MQTT, and Sentinel, an AI ops agent in Slack.
+- **Eventric / Master Tour**: an 8-app TypeScript extension to a 25-year-old SaaS platform. The first 17 days produced about 300 commits, a 51-table schema, 148 RLS policies, and 491 tests.
+- **Glytch**: my personal multi-agent assistant. It has a per-turn model router and two-way voice on ESP32 hardware, and it's slowly getting a robot body.
 
 ---
 
-### Connect
+### Stack
 
-- **Web**: [chrisleebergstrom.com](https://chrisleebergstrom.com)
-- **Email**: chris@blackeyedproductions.com
-- **Twitter**: [@CLBergstrom](https://twitter.com/CLBergstrom)
+`TypeScript` `React` `Next.js` `Bun` `Hono` `Node.js` `Swift` `Python`
+`PostgreSQL` `Supabase` `pgvector` `Redis` `Stripe`
+`Claude API` `Claude Code` `Codex` `MCP` `DeepSeek` `Ollama`
+`Render` `Vercel` `Cloudflare` `Sentry` `GitHub Actions` `ESP32` `MQTT`
+
+---
+
+### Contact
+
+[chrisleebergstrom.com](https://chrisleebergstrom.com) · [LinkedIn](https://linkedin.com/in/chris-bergstrom) · chrisleebergstrom@gmail.com
