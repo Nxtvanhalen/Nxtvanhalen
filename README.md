@@ -21,6 +21,7 @@ I don't hand-write code. I architect, specify, and verify; the agents type. Clau
 
 ### Code you can read
 
+- **[byte-mail](https://github.com/Nxtvanhalen/byte-mail)**: the production code behind Byte. Bun + Hono, DeepSeek with model routing, Redis threading, a safety layer for sensitive topics, privacy deletion confirmed from the sender's own inbox, a nightly AI self-review, and 560+ tests. All of the test data is made up.
 - **[ai-chess](https://github.com/Nxtvanhalen/ai-chess)**: Chester. Next.js, Supabase with RLS, Stripe, and Claude streaming commentary over SSE.
 - **[Website](https://github.com/Nxtvanhalen/Website)**: My site and EVE. Next.js, nonce-based CSP, WCAG 2.1 AA.
 
