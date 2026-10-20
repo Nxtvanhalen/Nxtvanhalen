@@ -3,6 +3,7 @@
 **AI-native full-stack engineer** · Portland, OR · remote
 
 I don't hand-write code. I architect, specify, and verify; the agents type. Claude Code builds, Codex reviews, each model runs the other's tests, and CI decides what ships. Before software, I spent twenty years running live events, where work ships on show day or it doesn't ship.
+
 ---
 
 ### Try it now (no signup)
