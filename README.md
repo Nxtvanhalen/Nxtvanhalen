@@ -1,4 +1,5 @@
 # Chris Lee Bergstrom
+Latest Updates :https://youtu.be/wczFYhu0J1w
 
 **AI-native full-stack engineer** · Portland, OR · remote
 
