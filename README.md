@@ -11,7 +11,6 @@ I don't hand-write code. I architect, specify, and verify; the agents type. Clau
 | | What it is | Try it |
 |---|---|---|
 | ⚡ **Byte Mail** | An AI assistant that lives entirely in email. No app, no login. Outside users found it on their own and use it every day. | Email **byte@firstlyte.co** · [firstlyte.co](https://firstlyte.co) |
-| ♟️ **Chester** | A chess app with an AI companion that comments on your game as you play. Custom minimax engine, Elo, Stripe, PWA. | [chesterchess.com](https://www.chesterchess.com) |
 | 💬 **EVE** | The AI concierge on my site. The site has been rebuilt with each new model generation. | [chrisleebergstrom.com](https://chrisleebergstrom.com) |
 | 🔊 **Beacons** | Live noise-compliance monitoring for venues. Used on stage by a professional symphony orchestra. | [beaconsio.com](https://beaconsio.com) |
 | ⛽ **Fuel Estimator** | A free tour-bus fuel-cost calculator for tour managers, priced per state. | [fuel-estimator.onrender.com](https://fuel-estimator.onrender.com) |
